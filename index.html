@@ -1,139 +1,85 @@
+
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yorgun Günlerin İçin İçecek Rehberi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakan Ormanci</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: Arial, sans-serif;
+      background-color: #0f1724;
+      color: #e6eef8;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
-    header {
-      background: #24292e;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #7dd3fc;
     }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      color: #444;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-    .drink {
-      margin-bottom: 30px;
-    }
-    .tag {
-      background: #ccc;
-      padding: 3px 8px;
-      border-radius: 4px;
-      font-size: 0.8em;
-      margin-right: 5px;
-    }
-    .category {
-      background: #e0e0e0;
-      padding: 10px;
+    p {
+      font-size: 1.2em;
       margin-bottom: 20px;
-      border-left: 4px solid #999;
+      text-align: center;
+      max-width: 600px;
+      color: #cbd5e1;
+    }
+    .socials {
+      display: flex;
+      gap: 20px;
+    }
+    a {
+      color: #e6eef8;
+      text-decoration: none;
+      font-size: 1.8em;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #7dd3fc;
+    }
+    .about-link {
+      margin-top: 25px;
+      font-size: 1em;
+      color: #7dd3fc;
+      border: 1px solid #7dd3fc;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .about-link:hover {
+      background-color: #7dd3fc;
+      color: #0f1724;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9em;
+      color: #94a3b8;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>Yorgun Günlerin İçin İçecek Rehberi</h1>
-  <p>Berlin dönüşleri daha keyifli, kod saatleri daha verimli!</p>
-</header>
-
-<section>
-
-  <div class="category">
-    <h2>🧠 Enerji Verici</h2>
-
-    <div class="drink">
-      <strong>Soğuk Yulaflı Kahve</strong> <span class="tag">Kafein</span><br>
-      <strong>Malzemeler:</strong><br>
-      - 1 bardak cold brew kahve<br>
-      - 1/2 bardak yulaf sütü<br>
-      - 1 tatlı kaşığı akçaağaç şurubu<br>
-      - Tarçın (isteğe bağlı)<br>
-      <strong>Hazırlık:</strong><br>
-      Hepsini karıştır, buzdolabında soğut. Şişeye al. Uykusuzluk yapmaz, net odak sağlar.
-    </div>
-
-    <div class="drink">
-      <strong>Club-Mate (veya Mio Mio Mate)</strong> <span class="tag">Doğal Kafein</span><br>
-      - Direkt içilebilir. Soğuk servis önerilir.<br>
-      - Alternatif: Limon dilimi + nane ile karıştır.<br>
-    </div>
-
-    <div class="drink">
-      <strong>Fritz-Kola</strong> <span class="tag">Yoğun Kafein</span><br>
-      - Küçük şişesi bile uykunu bastırmaz.<br>
-      - Şeker oranı düşüktür, etkili uyanıklık sağlar.<br>
-    </div>
+  <h1>Hakan Ormanci</h1>
+  <p>Data Analyst & Fintech Enthusiast. Exploring ideas, building simple tools, and learning by doing.</p>
+  
+  <div class="socials">
+    <a href="https://github.com/hakanormanci" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/hakanormanci/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:hakanormanci@hakanormanci.com" title="Email"><i class="fas fa-envelope"></i></a>
   </div>
 
-  <div class="category">
-    <h2>💆 Rahatlatıcı</h2>
+  <a class="about-link" href="/about.html">About Me</a>
 
-    <div class="drink">
-      <strong>Hibiskus + Portakal Soğuk Çayı</strong><span class="tag">Antioksidan</span><br>
-      <strong>Malzemeler:</strong><br>
-      - 2 poşet hibiskus çayı<br>
-      - Portakal dilimi, nane, azıcık bal<br>
-      <strong>Hazırlık:</strong> Demle, soğut, buz ekle. Serinletici ve huzurlu.
-    </div>
-
-    <div class="drink">
-      <strong>Cold Kombucha Mix</strong><span class="tag">Fermente</span><br>
-      - Kombucha + soda + limon<br>
-      - Ferahlatıcı ve mide dostu<br>
-    </div>
-
-    <div class="drink">
-      <strong>Rhubarb Soda + Nane</strong><br>
-      - Raventli soda (Fritz-Limo) + soda + nane + buz<br>
-      - Doğal gazoz gibi. Yaz vibe’ı!
-    </div>
-
-  </div>
-
-  <div class="category">
-    <h2>🏋️ Kas Gevşetici / Onarıcı</h2>
-
-    <div class="drink">
-      <strong>Soğuk Elma + Zencefil + Tarçın Çayı</strong><span class="tag">Kas Rahatlatıcı</span><br>
-      <strong>Malzemeler:</strong><br>
-      - 1 elma (dilimlenmiş)<br>
-      - 1 çubuk tarçın<br>
-      - Birkaç dilim taze zencefil<br>
-      <strong>Hazırlık:</strong> Sıcak suda demle, soğut, buzla iç. Kasları ve mideyi rahatlatır.
-    </div>
-
-    <div class="drink">
-      <strong>Hafif Radler</strong><span class="tag">Bira + Limonata</span><br>
-      - 1/2 bira + 1/2 limonata<br>
-      - Serinletici, çok az alkol içerir. Uykuyu getirmez.
-    </div>
-
-    <div class="drink">
-      <strong>Domatesli Bira (Michelada tarzı)</strong><br>
-      - Yarım bira + domates suyu + lime + baharat<br>
-      - Acı ve ekşi tonlar yorgunluğu keser, ter atar gibi hissettirir.
-    </div>
-
-  </div>
-
-</section>
-
+  <footer>
+    © 2025 Hakan Ormanci
+  </footer>
 </body>
 </html>
